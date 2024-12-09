@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPP</title>
+</head>
+<body>
+    <h1>Crea il tuo animale domestico</h1>
+
+    <form id="petForm">
+        <label for="petName">Nome dell'animale:</label>
+        <input type="text" id="petName" required><br><br>
+
+        <label for="ownerName">Nome del padrone:</label>
+        <input type="text" id="ownerName" required><br><br>
+
+        <label for="species">Specie:</label>
+        <input type="text" id="species" required><br><br>
+
+        <label for="breed">Razza:</label>
+        <input type="text" id="breed" required><br><br>
+
+        <button type="submit">Aggiungi Animale</button>
+    </form>
+    <h2>Animali Domestici:</h2>
+    <ul id="petList"></ul>
+
+    <script src="assets/js/app.js" ></script>
+</body>
+</html>
